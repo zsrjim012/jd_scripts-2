@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-## Author: https://github.com/EvineDeng
+## Author: https://GIT_HUB.com/EvineDeng
 ## Modified： 2021-01-24
 ## Version： v1.0.0
 
@@ -8,8 +8,8 @@
 WorkDir=$(cd $(dirname $0); pwd)
 JsList=($(cd $WorkDir; ls *.js | grep -E "j[drx]_"))
 FileReadme=$WorkDir/README.md
-UrlBlob=https://github.com/LXK9301/jd_scripts/blob/master/
-UrlRaw=https://raw.githubusercontent.com/LXK9301/jd_scripts/master/
+UrlBlob=https://GIT_HUB.com/LXK9301/jd_scripts/blob/master/
+UrlRaw=https://raw.GIT_HUBusercontent.com/LXK9301/jd_scripts/master/
 SheetHead="| 序号 |   名称  | blob文件链接 | raw文件链接 |\n| ---- | ------- | ------------ | ----------- |"
 
 ## 删除标记行的内容
